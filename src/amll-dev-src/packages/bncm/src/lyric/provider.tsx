@@ -232,7 +232,7 @@ async function getLyricFromDB(
 		const urls = [
 			`https://gitcode.net/sn/amll-ttml-db/-/raw/main/ncm-lyrics/${musicId}.ttml?inline=false`,
 			`https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/main/ncm-lyrics/${musicId}.ttml`,
-			`https://mirror.ghproxy.com/https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/main/ncm-lyrics/${musicId}.ttml`,
+			`https://ghfast.top/https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/main/ncm-lyrics/${musicId}.ttml`,
 			`https://gh.api.99988866.xyz/https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/main/ncm-lyrics/${musicId}.ttml`,
 		];
 		const res = await Promise.any(

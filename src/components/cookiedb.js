@@ -177,7 +177,7 @@ function Cookiedb() {
                         const ttmlid = fileName.split('.')[0];  // 移除扩展名
                         const ttml_id = ttmlid;
                         const ttml_url = 'https://github.com/Steve-xmh/amll-ttml-db/blob/main/ncm-lyrics/' + ttmlid + '.ttml';
-                        const ttml_downurl = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/main/ncm-lyrics/" + ttmlid + '.ttml'; //ghproxy 避免raw.gh被ban
+                        const ttml_downurl = "https://ghfast.top/https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/main/ncm-lyrics/" + ttmlid + '.ttml'; //ghproxy 避免raw.gh被ban
                         const dev_time_ver = new Date().toLocaleString();
                         const time_ver = dev_time_ver + "/Devs";
 

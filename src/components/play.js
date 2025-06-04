@@ -19,7 +19,7 @@ function Play() {
         // Parse TTML
         parseTTMLs();
         async function parseTTMLs() {
-            const response = await fetch("https://mirror.ghproxy.com/https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/main/ncm-lyrics/1382781549.ttml"); // Replace with the correct path
+            const response = await fetch("https://ghfast.top/https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/main/ncm-lyrics/1382781549.ttml"); // Replace with the correct path
             const ttmlInput = await response.text();
             const parsedResult = parseTTML(ttmlInput);
             setLyricLines(parsedResult)
