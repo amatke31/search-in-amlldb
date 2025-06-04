@@ -150,7 +150,7 @@ function Localdb() {
                     console.log("[localdb]匹配歌曲信息, 联系163api");
                     // 输出id
 
-                    const BATCH_SIZE = 500;
+                    const BATCH_SIZE = 400;
                     const batches = [];
                     for (let start = 0; start < ttmlFiles.length; start += BATCH_SIZE) {
                         batches.push(ttmlFiles.slice(start, start + BATCH_SIZE));
