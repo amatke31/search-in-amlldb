@@ -323,6 +323,18 @@ function Localdb() {
                             color: 'green',
                             children: (
                                 <>
+                                    <p><b>25.0.0</b> - 2024/5/29</p>
+                                    <p>AMLL 3.1.0, React 0.1.5, Core 0.1.3</p>
+                                    <p> - Limit the number of concurrent requests to Netease Cloud API to avoid network errors</p>
+                                    <p> - Update TTMLtool address</p>
+                                    <p> - Update GitHub proxy address</p>
+                                </>
+                            ),
+                        },
+                        {
+                            color: 'gray',
+                            children: (
+                                <>
                                     <p><b>24.0.0</b> - 2024/5/29</p>
                                     <p>AMLL 3.1.0, React 0.1.5, Core 0.1.3</p>
                                     <p> - Add  player control bar</p>

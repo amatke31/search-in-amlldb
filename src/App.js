@@ -163,7 +163,7 @@ function App() {
               textAlign: 'center',
             }}
           >
-            Search In AMLL-DB <b>24.0.0</b> @AMLL 3.1.0, React 0.1.5, Core 0.1.3
+            Search In AMLL-DB <b>25.0.0</b> @AMLL 3.1.0, React 0.1.5, Core 0.1.3
           </Footer>
         </Layout>
       </Layout>
